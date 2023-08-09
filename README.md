@@ -81,13 +81,13 @@ You can do it by calling `from pyPSQC import psqc`
 
 ## Important notes    
 - **The quality_score represents a perecentage [min = 0%, max 100%]**
-- **If the input image normalized (the method deigned to get images normalized with AutoRef), Set `input_normalized`to `True`, otherwise skip it or set it to `False`**
+- **If the input image normalized (the method deigned to get images normalized with [AutoRef](https://github.com/MohammedSunoqrot/pyAutoRef)), Set `input_normalized`to `True`, otherwise skip it or set it to `False`**
 - **The quality_class_threshold must be between 0-100. Ny default set to 85**
 
 ## Supported input/output formats
 - DICOM Series.
 - All the medical [images formats supported by SimpleITK](https://simpleitk.readthedocs.io/en/v2.2.0/IO.html).
-- [SimpleITK.Image] (https://simpleitk.org/SimpleITK-Notebooks/01_Image_Basics.html).
+- [SimpleITK.Image](https://simpleitk.org/SimpleITK-Notebooks/01_Image_Basics.html).
 
 ***DICOM Series is recognized when there is no file extension***
 
