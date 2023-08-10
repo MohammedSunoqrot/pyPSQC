@@ -1,3 +1,4 @@
+![PyPI](https://img.shields.io/pypi/v/pyPSQC)
 # pyPSQC
 ### Prostate Segmentation Quality Control System
 **A quality control system for automated prostate segmentation on T2-weighted MRI**
